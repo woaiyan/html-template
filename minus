@@ -1,0 +1,13 @@
+<div class="outer minus"></div>
+
+
+.outer{
+  width: 100px;
+  height: 100px;
+  border:#ccc solid thin;
+}
+.minus{
+   background: #fff no-repeat center;                            
+   background-image: linear-gradient(to top, #ccc, #ccc);
+   background-size: 30px 4px;
+}
