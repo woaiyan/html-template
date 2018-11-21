@@ -1,0 +1,13 @@
+<div class="outer plus"></div>
+
+
+.outer{
+  width: 100px;
+  height: 100px;
+  border:#ccc solid thin;
+}
+.plus{
+   background: #fff no-repeat center;                            
+   background-image: linear-gradient(to top, #ccc, #ccc),linear-gradient(to top, #ccc, #ccc);
+   background-size: 30px 4px,4px 30px;
+}
