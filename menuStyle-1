@@ -1,0 +1,55 @@
+html
+<div class="rect">
+  <div class="inner"></div>
+</div>
+<div class="rect">
+  <div class="inner"></div>
+</div>
+<div class="rect">
+  <div class="inner"></div>
+</div>
+<div class="rect">
+  <div class="inner"></div>
+</div>
+<div class="rect">
+  <div class="inner"></div>
+</div>
+<div class="rect">
+  <div class="inner"></div>
+</div>
+<div class="rect">
+  <div class="inner"></div>
+</div>
+<div class="rect">
+  <div class="inner"></div>
+</div>
+style
+    .rect{
+      width: 300px;
+      height: 100px;
+      /* background-color: deepskyblue; */
+      display: inline-block;
+      float: left;
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+    .inner{
+      width: 300px;
+      height: 100px;
+      /* background-color: red; */
+      border: #ccc solid thin;
+      background-color: #fff;
+    }
+    .inner:hover{
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      /* background-color: red; */
+      border: #ccc solid thin;
+      background-color: #fff;
+    }
+    
+    .rect的div作为列表容器固定每一个菜单项的位置
+    .inner的div时实际的菜单项
+    .innder:hover设置定位为absolute，加大高度
+    此种样式既不会改变各给菜单项的位置，也可以实现鼠标移上菜单项，菜单项加长覆盖其底部菜单项的效果
