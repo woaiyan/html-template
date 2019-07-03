@@ -1,0 +1,19 @@
+<div class=box></div>
+
+
+body{
+  background:black;
+}
+.box{
+  width:220px;
+  height:150px;
+  box-sizeing:border-box;
+}
+@support(-webkit-mask:none) or (mask:none){
+  .box{
+    border:none;
+    background:linear-gradient(to left, #000000, #3ec5ff, #000000) no repeat,radial-gradient(circle at 50% 100%,#3ec5ff, #000000 60%);
+    -webkit-mask-image:linear-gradient(to top,#000 1px,transparent 1px),radial-gradient(200px 20px ellipse at 50% 100%,rgba(46,145,188,.5),transparent 150px);
+  
+  }
+}
