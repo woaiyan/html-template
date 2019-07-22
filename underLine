@@ -7,9 +7,9 @@ body{
 .box{
   width:220px;
   height:150px;
-  box-sizeing:border-box;
+  box-size:border-box;
 }
-@support(-webkit-mask:none) or (mask:none){
+@supports(-webkit-mask:none) or (mask:none){
   .box{
     border:none;
     background:linear-gradient(to left, #000000, #3ec5ff, #000000) no repeat,radial-gradient(circle at 50% 100%,#3ec5ff, #000000 60%);
